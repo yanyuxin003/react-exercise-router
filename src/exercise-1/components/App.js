@@ -34,6 +34,8 @@ class App extends Component {
              <Route path='/products' component={Products} />    
              <Route path='/products/:id' component={Product}/>
               <Route component={Home} />
+              <Redirect from='/goods' to='/products' />
+              <Redirect from='/*' to='/' />
           </Switch>
       </BrowserRouter>
     );

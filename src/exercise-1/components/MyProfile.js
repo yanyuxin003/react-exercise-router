@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/MyProgile.css'
+import '../styles/MyProfile.css'
 
 export default class MyProfile extends Component{
     render(){
